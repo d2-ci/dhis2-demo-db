@@ -16,4 +16,6 @@ After modifying it you can create a dump using pg_dump. Please gzip and exclude 
 
 	pg_dump dhis2 -U dhis -T analytics* -T _* | gzip > dhis2-db-sierra-leone.sql.gz
 
+Follow the naming convention for directories under sierra-leone folder, which is the DHIS 2 version number (e.g. "2.28") and "dev" (snapshot).
+
 Remember to write good commit messages to explain what you do with the databases.
