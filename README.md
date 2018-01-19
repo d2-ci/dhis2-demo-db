@@ -10,11 +10,11 @@ To work with the database you can gunzip it:
 	
 Restore it using psql:
 
-	psql -d dhis2 -U dhis -f dhis2-db-sierra-leone.sql
+	psql -d dev -U dhis -f dhis2-db-sierra-leone.sql
 
 After modifying it you can create a dump using pg_dump. Please gzip and exclude the analytics and resource tables as they will be generated later and take up a lot of space:
 
-	pg_dump dhis2 -U dhis -T analytics* -T _* | gzip > dhis2-db-sierra-leone.sql.gz
+	pg_dump dev -U dhis -T analytics* -T _* | gzip > dhis2-db-sierra-leone.sql.gz
 
 Follow the naming convention for directories under the sierra-leone directory, which is the DHIS 2 version number (e.g. "2.28") and "dev" (snapshot).
 
