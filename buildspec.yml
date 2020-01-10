@@ -1,7 +1,0 @@
-version: 0.1
-phases:
-    install:
-        commands:
-        - aws s3 sync --exclude ".git/*" . s3://databases.dhis2.org
-
-
