@@ -1,3 +1,5 @@
+>***NOTE: THIS REPO IS NO LONGER USED FOR MAINTAINING THE DHIS2 DEMO DATABASES!***
+
 # dhis2-demo-db
 
 ### DHIS 2 demo databases
