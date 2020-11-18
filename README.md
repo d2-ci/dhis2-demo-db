@@ -1,4 +1,6 @@
->***NOTE: THIS REPO IS NO LONGER USED FOR MAINTAINING THE DHIS2 DEMO DATABASES!***
+> :warning: ***NOTE: THIS REPO IS NO LONGER USED FOR MAINTAINING THE DHIS2 DEMO DATABASES!***
+>
+> Please refer to https://databases.dhis2.org/
 
 # dhis2-demo-db
 
